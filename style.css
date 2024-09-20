@@ -1,0 +1,32 @@
+*{
+    margin: 0.5%;
+    padding: 0%;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+h3{
+    color: rgb(53, 249, 4);
+}
+header{
+    background-color: coral;
+    color: cyan;
+    padding: 24px;
+}
+img{
+    border: solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+ 
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
