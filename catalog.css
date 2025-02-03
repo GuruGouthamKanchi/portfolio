@@ -1,0 +1,119 @@
+*{
+ margin:0%;
+ padding:0%;
+}
+
+html,body{
+ height: 100%;
+ width: 100%;
+ font-family: "Josefin Sans", serif;
+ background-color: #A31D1D;
+ color: #FEF9E1;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: #FEF9E1;
+    color: #A31D1D;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    height: 80px;
+    box-shadow: 3px 3px 8px rgba(163, 29, 29,0.2);
+    z-index: 100;
+}
+header button{
+    border: none;
+    background-color: #A31D1D;
+    padding: 5px;
+    width: 40px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgb(254, 249, 225,0.5);
+    transition: background-color 0.15s;
+
+}
+header button:hover{
+    background-color: #000957;
+    cursor: pointer;
+}
+.d22{
+    display: flex;
+    justify-content: center;
+}
+.d33{
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+}
+.d11{
+    margin-left: 40px;
+}
+.d22 p{
+    font-weight:300;
+    font-size: 50px;
+    padding-top: 10px;
+}
+@media (max-width:630px) {
+    .d22 p{
+        font-size: 40px;
+    }
+}
+@media (max-width:375px) {
+    .d22 p{
+        font-size: 30px;
+    }
+    main{
+        margin-top: 120px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 120px;
+    }
+}
+main{
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-columns: 1fr;
+    row-gap: 20px;
+}
+.grid-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    border-width: 10px;
+    border-style: solid;
+    border-color: #FEF9E1;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    box-shadow: 5px 5px 10px rgba(163, 29, 29,0.15);
+    transition: border-color,background-color,color 0.15s;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #A31D1D;
+    background-color: #FEF9E1;
+    align-items: center;
+}
+.grid:hover{
+    border-color: #000957;
+    background-color: #000957;
+    color: #FEF9E1;
+}
+.grid p{
+    padding-top: 10px;
+}
+.grid img{
+    width: 100%;
+}
+.grid a{
+    text-decoration: none;
+    color: inherit;
+}
