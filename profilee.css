@@ -67,6 +67,7 @@ main{
 main img{
     width: 400px;
     margin-top: 40px;
+    object-fit: contain;
 
 }
 
